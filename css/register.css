@@ -1,0 +1,40 @@
+section > div {
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px #d7d7d7 solid;
+}
+section>div>h2{
+    margin: .20rem 0 .20rem 0;
+    text-indent: .25rem;
+    font-size: .20rem;
+    color: #474747;
+    /*line-height: .16rem;*/
+    font-weight: normal;
+    border-left:.06rem solid #fe5341;
+}
+section>div>form{
+    width: 2.5rem;
+    margin: .1rem auto .1rem;
+}
+/*section>div>form>p{
+    width:100%;
+    height:.6rem;
+}*/
+section>div>form>input{
+    background: #f7f7f7;
+    color: #a3a3a3;
+    height: .4rem;
+    padding-left: .1rem;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: .16rem;
+    border: 1px #eee solid;
+    border-radius: .1rem;
+    margin: .2rem 0;
+}
+section>div>form>p:last-child input{
+    font-size: .2rem;
+    background: #fe5341;
+    color:white;
+}
